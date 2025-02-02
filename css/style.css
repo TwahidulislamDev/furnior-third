@@ -1,75 +1,198 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", serif;
-  }
-  a {
-    text-decoration: none;
-    display: inline-block;
-  }
-  ul,
-  ol {
-    list-style-type: none;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-    padding: 0;
-    line-height: 0.8;
-  }
-  .container {
-    width: 1270px;
-    margin: 0 auto;
-  }
-  /* All common css End  */
-  /* Header part start  */
-  #headerPart {
-    padding: 30px 0;
-  }
-  .headerFlex {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1270px;
+  margin: 0 auto;
+}
+/* All common css End  */
+/* Header part start  */
+#headerPart {
+  padding: 30px 0;
+}
+.headerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu li {
+  display: inline-block;
+  padding: 0 32.5px;
+  text-align: center;
+}
+.menu li,
+a {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+.icons .iconSvg {
+  padding-left: 40px;
+}
+/* Header part end  */
+/* Banner Section Start  */
+#bannerSection {
+  background: url(../resource/images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bannerOverlay {
+  padding: 120px 0;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+.bannerOverlay h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.bannerOverlay p {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 25px;
+}
+/* Banner Section End  */
+/* check Out section Start  */
+#cartTotalSection {
+  margin: 50px 0;
+}
+.cartFlexDiv {
+}
+.cartProduct {
+  padding: 20px 0;
+  width: 70%;
+}
+.cartCheckOut {
+  width: 30%;
+}
+.productHeading{
+    width: 100%;
+    height: 40px;
+    background: #f9f1e7;
     display: flex;
-    justify-content: space-between;
+    justify-content:;
     align-items: center;
-  }
-  .menu li {
-    display: inline-block;
-    padding: 0 32.5px;
+    padding: 10px;
     text-align: center;
-  }
-  .menu li,
-  a {
-    text-transform: uppercase;
+}
+.productHeading h3{
     font-size: 16px;
-    font-weight: 500;
-  }
-  .icons .iconSvg {
-    padding-left: 40px;
-  }
-  /* Header part end  */
-  /* Banner Section Start  */
-  #bannerSection {
-    background: url(../resource/images/banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .bannerOverlay {
-    padding: 120px 0;
-    background: rgba(255, 255, 255, 0.3);
-    text-align: center;
-  }
-  .bannerOverlay h1 {
-    font-size: 50px;
-    font-weight: 500;
-  }
-  .bannerOverlay p {
-    font-size: 14px;
     font-weight: 400;
-    padding-top: 25px;
-  }
-  /* Banner Section End  */
+    /* padding-right: 100px; */
+    width: 35%;
+}
+.productHeading h4{
+    font-size: 16px;
+    font-weight: 400;
+    /* padding-left:50px ; */
+    width: 20%;
+}
+.productHeading h5{
+    font-size: 16px;
+    font-weight: 400;
+    width: 10%;
+}
+.productHeading p{
+    font-size: 16px;
+    font-weight: 400;
+    /* padding-right: 80px; */
+    width: 35%;
+}
+.productItem{
+    width:100%;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    /* padding: 10px; */
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.asgaadPisition{
+    width: 100px;
+    height: 80px;
+    
+    background: #f9f1e7;
+    position: relative;
+    border-radius: 10px;
+    display: inline-block;
+}
+.asgaadPisition img{
+    width: 90px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.asgaardFlex{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    width: 35%;
+}
+.productItem h1{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    
+}
+.productItem h2{
+    /* display: inline-block; */
+    font-size: 16px;
+    font-weight: 400;
+    /* padding-left: 20px; */
+    width: 20%;
+}
+.productItem h3{
+    font-size: 16px;
+    font-weight: 400;
+    /* padding-left: 20px; */
+    width: 15%;
+}
+.productItem h4{
+    font-size: 16px;
+    font-weight: 400;
+    /* padding-left: 20px; */
+    width: 30%;
+    display: inline-block;
+}
+
+.productItem .productBin{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.productItem .productBin h4{
+    font-size: 16px;
+    font-weight: 400;  
+}
+.productBin i{
+    padding-left: 50px;
+}
+
+/* check Out section Start  */
