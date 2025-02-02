@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  ul,
+  ol {
+    list-style-type: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+  }
+  .container {
+    width: 1270px;
+    margin: 0 auto;
+  }
+  /* All common css End  */
+  /* Header part start  */
+  #headerPart {
+    padding: 30px 0;
+  }
+  .headerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu li {
+    display: inline-block;
+    padding: 0 32.5px;
+    text-align: center;
+  }
+  .menu li,
+  a {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .icons .iconSvg {
+    padding-left: 40px;
+  }
+  /* Header part end  */
+  /* Banner Section Start  */
+  #bannerSection {
+    background: url(../resource/images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bannerOverlay {
+    padding: 120px 0;
+    background: rgba(255, 255, 255, 0.3);
+    text-align: center;
+  }
+  .bannerOverlay h1 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .bannerOverlay p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 25px;
+  }
+  /* Banner Section End  */
