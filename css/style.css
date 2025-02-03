@@ -43,6 +43,7 @@ p {
 }
 .menu li,
 a {
+  color: black;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
@@ -78,121 +79,360 @@ a {
   margin: 50px 0;
 }
 .cartFlexDiv {
+  display: flex;
+  justify-content: space-between;
 }
 .cartProduct {
-  padding: 20px 0;
-  width: 70%;
+  width: 65%;
 }
 .cartCheckOut {
   width: 30%;
+  height: 350px;
+  background: #f9f1e7;
+  padding: 20px 0;
 }
-.productHeading{
-    width: 100%;
-    height: 40px;
-    background: #f9f1e7;
-    display: flex;
-    justify-content:;
-    align-items: center;
-    padding: 10px;
-    text-align: center;
+.productHeading {
+  width: 100%;
+  height: 40px;
+  background: #f9f1e7;
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
 }
-.productHeading h3{
-    font-size: 16px;
-    font-weight: 400;
-    /* padding-right: 100px; */
-    width: 35%;
+.productHeading h3 {
+  font-size: 16px;
+  font-weight: 400;
+  /* padding-right: 100px; */
+  width: 35%;
 }
-.productHeading h4{
-    font-size: 16px;
-    font-weight: 400;
-    /* padding-left:50px ; */
-    width: 20%;
+.productHeading h4 {
+  font-size: 16px;
+  font-weight: 400;
+  /* padding-left:50px ; */
+  width: 20%;
 }
-.productHeading h5{
-    font-size: 16px;
-    font-weight: 400;
-    width: 10%;
+.productHeading h5 {
+  font-size: 16px;
+  font-weight: 400;
+  width: 10%;
 }
-.productHeading p{
-    font-size: 16px;
-    font-weight: 400;
-    /* padding-right: 80px; */
-    width: 35%;
+.productHeading p {
+  font-size: 16px;
+  font-weight: 400;
+  /* padding-right: 80px; */
+  width: 35%;
 }
-.productItem{
-    width:100%;
-    display: flex;
-    justify-content: ;
-    align-items: center;
-    /* padding: 10px; */
-    text-align: center;
-    margin-top: 30px;
-    
+.productItem {
+  width: 100%;
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  /* padding: 10px; */
+  text-align: center;
+  margin-top: 30px;
 }
-.asgaadPisition{
-    width: 100px;
-    height: 80px;
-    
-    background: #f9f1e7;
-    position: relative;
-    border-radius: 10px;
-    display: inline-block;
+.asgaadPisition {
+  width: 100px;
+  height: 80px;
+  background: #f9f1e7;
+  position: relative;
+  border-radius: 10px;
+  /* display: inline-block; */
 }
-.asgaadPisition img{
-    width: 90px;
-    height: 70px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); 
+.asgaadPisition img {
+  width: 90px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.asgaardFlex{
-    display: flex;
-    justify-content:start;
-    align-items: center;
-    width: 35%;
+.asgaardFlex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 35%;
 }
-.productItem h1{
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 400;
-    padding-left: 10px;
-    
+.productItem h1 {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 10px;
 }
-.productItem h2{
-    /* display: inline-block; */
-    font-size: 16px;
-    font-weight: 400;
-    /* padding-left: 20px; */
-    width: 20%;
+.productItem h2 {
+  /* display: inline-block; */
+  font-size: 16px;
+  font-weight: 400;
+  /* padding-left: 20px; */
+  width: 20%;
 }
-.productItem h3{
-    font-size: 16px;
-    font-weight: 400;
-    /* padding-left: 20px; */
-    width: 15%;
+.productItem h3 {
+  font-size: 16px;
+  font-weight: 400;
+  /* padding-left: 20px; */
+  width: 15%;
 }
-.productItem h4{
-    font-size: 16px;
-    font-weight: 400;
-    /* padding-left: 20px; */
-    width: 30%;
-    display: inline-block;
+.productItem h4 {
+  font-size: 16px;
+  font-weight: 400;
+  /* padding-left: 20px; */
+  width: 30%;
+  display: inline-block;
 }
-
-.productItem .productBin{
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.productItem h4 a {
+  color: black;
 }
-.productItem .productBin h4{
-    font-size: 16px;
-    font-weight: 400;  
+.productItem .productBin {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.productBin i{
-    padding-left: 50px;
+.productItem .productBin h4 {
+  font-size: 16px;
+  font-weight: 400;
 }
-
+.productBin i {
+  padding-left: 50px;
+}
+.cartCheckOut h1{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.subTotal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 80px;
+}
+.subTotal h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+.subTotal p{
+  font-size: 18px;
+  font-weight: 500;
+  color: #989898 ;
+}
+.total{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+.total h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+.total p{
+  font-size: 22px;
+  font-weight: 500;
+  color: #b88e2f;
+}
+.cartCheckOut a{
+  text-align: center;
+}
+.checkOutBtn{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkOutBtn button{
+  font-size: 18px;
+  padding: 10px 50px;
+  background: transparent;
+  border-radius: 10px;
+  transition: .5s;
+}
+.checkOutBtn button:hover{
+  font-size: 18px;
+  padding: 10px 50px;
+  background:#e97171;
+  border-radius: 10px;
+}
 /* check Out section Start  */
+
+/* Warranty Section Start */
+#warrantySection{
+  background: #FAF3EA;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.warrantyFlex{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.warrantyProduct{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.WarrantyLogo img{
+  width: 45px;
+  
+}
+.WarrantyText{
+  padding-left: 10px;
+  
+
+}
+.WarrantyText h1{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 15px;
+  
+}
+.WarrantyText p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #898989;
+}
+/* Warranty Section End */
+/* Footer Section Start */
+#footerPart{
+  margin-bottom: 50px;
+}
+.footerFlex{
+  border-top:1px solid gray ;
+  border-bottom:1px solid gray;
+  display: flex;
+  justify-content: space-between; 
+}
+.brandName{
+  padding-top: 50px;
+  width: 30%;
+}
+.brandName h1{
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+.brandName p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #9F9F9F;
+  line-height: 20px;
+}
+.brandLink{
+  padding-top: 50px;
+  width: 20%;
+}
+.brandLink h1{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 60px; 
+}
+.brandLink h2{
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.brandLink h3{
+  font-size: 14px;
+  font-weight: 400;  
+  padding-bottom: 40px;
+  color: #9F9F9F;
+}
+.brandLink h4{
+  font-size: 14px;
+  font-weight: 400; 
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.brandLink p{
+  font-size: 14px;
+  font-weight: 400; 
+  color: #9F9F9F; 
+  padding-bottom: 40px;
+}
+.help h1{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 60px; 
+}
+.help{
+  padding-top: 50px;
+  width: 20%;
+}
+.help h2{  
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.help h3{  
+  font-size: 14px;
+  font-weight: 400;  
+  padding-bottom: 40px;
+  color: #9F9F9F;
+}
+.help h4{  
+  font-size: 14px;
+  font-weight: 400; 
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.brandNewsletter{
+  padding-top: 50px;
+  width: 30%;
+}
+.brandNewsletter h1{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 60px;  
+}
+.brandNewLetterFlex{
+  display: flex;
+}
+.footerForm input{
+  border: none;
+  background: transparent;
+  padding: 10px 20px 10px 0;
+  border-bottom: 2px solid black;
+  display: block;
+  margin-right: 10px;
+}
+.footerFormText{
+  border-bottom: 2px solid black;
+}
+/* .footerFormText button{
+  padding: 10px 10px;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+} */
+.footerFormText a{
+  padding: 10px 10px;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: .5s;
+  color: black;
+}
+.footerFormText a:hover{
+  padding: 10px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #e97171;
+}
+.copyRight h3{
+  text-align: center;
+  font-size: 14px;
+  color: #9F9F9F;
+  font-weight: 400;
+  padding-top: 10px;
+
+}
+/* Footer Section End */
